@@ -6,12 +6,6 @@ This is an assignment project.
 
 ## Backend Recruitment Task
 
-### Goal
-
-Your task is to implement a backend service that will integrate data from an external API (already provided) and return processed results according to specific business rules.
-
-We expect production-quality code: clean, maintainable, and well-documented. Please make reasonable architectural and technical decisions on your own.
-
 ## How to run
 
 ### Prerequisites
