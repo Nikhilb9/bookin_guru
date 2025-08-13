@@ -47,11 +47,6 @@ export class ThirdPartyService {
     this.PASSWORD = this.configService.get<string>('API_PASS') || 'testpass';
     this.GOOGLE_API_KEY =
       this.configService.get<string>('GOOGLE_API_KEY') || '';
-
-    console.log(
-      '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$',
-      this.configService.get<string>('GOOGLE_API_KEY'),
-    );
   }
 
   private async login(): Promise<void> {
